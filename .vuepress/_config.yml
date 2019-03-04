@@ -1,0 +1,30 @@
+description: >
+  The shipcloud.io developer portal is your one stop for all developer needs.
+title: shipcloud.io - Developer Portal
+
+markdown:
+  lineNumbers: true
+
+
+themeConfig:
+  # logo: ''
+  nav:
+    - text: 'Home'
+      link: '/'
+    - text: 'Basic Concepts'
+      link: '/concepts/'
+    - text: 'Carrier Specifics'
+      link: '/carrier/'
+    - text: 'Examples'
+      link: '/examples/'
+    - text: 'API Reference'
+      link: '/reference/'
+
+  sidebar:
+    '/carrier/':
+      - 'dhl'
+      - ['dhl_express', 'DHL Express']
+      - 'ups'
+
+# dev stuff
+port: 4000

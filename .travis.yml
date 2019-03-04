@@ -1,0 +1,18 @@
+sudo: false
+dist: trusty
+language: node_js
+cache: npm
+node_js:
+  - "8"
+script:
+  - "npm install vuepress"
+  - "npm run docs:build"
+deploy:
+  provider: pages
+  github-token: $GITHUB_TOKEN
+  local-dir: .vuepress/dist
+  keep-history: true
+  on:
+    repo: shipcloud/shipcloud.github.io
+    branch: andrecedik/replace-jekyll-with-vuepress
+  skip_cleanup: true
