@@ -13,6 +13,6 @@ deploy:
   local-dir: .vuepress/dist
   keep-history: true
   on:
-    repo: shipcloud/shipcloud.github.io
-    branch: andrecedik/replace-jekyll-with-vuepress
+    repo: shipcloud/shipcloud-docs-vuepress
+    branch: master
   skip_cleanup: true
