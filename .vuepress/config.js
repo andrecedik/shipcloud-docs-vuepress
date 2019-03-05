@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/shipcloud-docs-vuepress/',
   description: 'The shipcloud.io developer portal is your one stop for all developer needs.',
   title: 'shipcloud.io - Developer Portal',
   markdown: {
