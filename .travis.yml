@@ -13,6 +13,6 @@ deploy:
   local-dir: .vuepress/dist
   keep-history: true
   on:
-    repo: shipcloud/shipcloud-docs-vuepress
+    repo: andrecedik/shipcloud-docs-vuepress
     branch: master
   skip_cleanup: true
