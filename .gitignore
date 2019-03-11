@@ -18,4 +18,4 @@ vendor/bundle
 .tags
 .tags1
 
-/node_modules/.cache
+/node_modules/*
