@@ -9,8 +9,12 @@ module.exports = {
     },
     lineNumbers: true
   },
-
+  plugins: [
+    '@vuepress/back-to-top',
+    '@vuepress/last-updated'
+  ],
   themeConfig: {
+    lastUpdated: 'Last Updated',
     nav: [
       {
         text: 'Home',
