@@ -70,7 +70,9 @@ module.exports = {
         ['dhl_express', 'DHL Express'],
         'ups'
       ]
-    }
+    },
+
+    sidebarDepth: 4
   },
 
   port: 4000
