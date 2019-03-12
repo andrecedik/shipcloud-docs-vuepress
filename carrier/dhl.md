@@ -51,3 +51,28 @@
 ## Other attributes
 
 - additional insurance
+
+## Examples
+
+### Additional services
+
+#### Advance notice
+
+::: warning INFO
+DHL currently only supports advance notice via email.
+:::
+
+``` terminal
+POST https://api.shipcloud.io/v1/shipments
+```
+<<< @/code/examples/dhl/additional_services/requests/advance_notice_request.json{28-34}
+
+#### Cash on delivery
+
+Requirements:
+- You'll have to use your own DHL contract
+
+``` terminal
+POST https://api.shipcloud.io/v1/shipments
+```
+<<< @/code/examples/dhl/additional_services/requests/cash_on_delivery_request.json{28-39}
