@@ -1,9 +1,18 @@
 {
   "dependencies": {
-    "markdown-it-footnote": "^3.0.1"
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "markdown-it-footnote": "^3.0.1",
+    "vue": "^2.6.8",
+    "webpack-serve": "^2.0.3"
   },
   "scripts": {
     "docs:dev": "vuepress dev",
     "docs:build": "vuepress build"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.44",
+    "webpack": "^4.29"
   }
 }
